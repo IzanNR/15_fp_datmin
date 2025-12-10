@@ -117,8 +117,6 @@ Menggunakan konfigurasi **terbaik tiap model dari Skenario 1**, lalu menerapkan:
 - **Random Forest** → sedikit membaik dengan **ROS** (F1 naik ~0,0046).  
 - **XGBoost** → sedikit membaik dengan **SMOTE** (F1 naik ~0,0030).  
 
-Secara praktis, **sampling bukan faktor dominan**; kualitas fitur + pemilihan model lebih berpengaruh.
-
 ---
 
 ### Skenario 3 – Feature Scaling
@@ -134,7 +132,7 @@ Menguji efek **scaling** pada konfigurasi terbaik Skenario 2:
 - **Logistic Regression**: F1 berbobot naik tipis dengan **MinMaxScaler** (selisih sangat kecil).  
 - **Voting Classifier**: kombinasi terbaik → **Engineered Features + tanpa sampling + MinMaxScaler**  
   dengan F1 berbobot **0,8241**.  
-- Model berbasis pohon (**DT, RF, XGBoost, AdaBoost**) → nyaris **tidak terpengaruh** scaling.  
+- **DT, RF, XGBoost, AdaBoost** → nyaris **tidak terpengaruh** scaling.  
 
 ---
 
