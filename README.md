@@ -27,7 +27,7 @@ Fokus utama:
 ## Dataset
 
 - **Nama**: CDC Diabetes Health Indicators (BRFSS 2015)  
-- **Ukuran**: 253.680 sampel, 22 kolom (1 target, 21 fitur prediktor) :contentReference[oaicite:0]{index=0}  
+- **Ukuran**: 253.680 sampel, 22 kolom (1 target, 21 fitur)
 - **Sumber**:  
   - UCI Machine Learning Repository – *CDC Diabetes Health Indicators*  
     - [https://archive.ics.uci.edu/dataset/891/cdc%2Bdiabetes%2Bhealth%2Bindicators](https://archive.ics.uci.edu/dataset/891/cdc%2Bdiabetes%2Bhealth%2Bindicators)
